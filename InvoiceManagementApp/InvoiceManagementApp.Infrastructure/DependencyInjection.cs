@@ -18,19 +18,18 @@ namespace InvoiceManagementApp.Infrastructure
             //    options.UseSqlServer(
             //        configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseMySQL(
-                    configuration.GetConnectionString("Server=localhost;UId=root;Pwd=admin;Database=InvoiceManagement")));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseMySQL("Server=localhost;UId=root;Pwd=admin;Database=InvoiceManagement"));
+            //configuration.GetConnectionString("Server=localhost;UId=root;Pwd=admin;Database=InvoiceManagement")));
             //configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+            //services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            //    .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            services.AddIdentityServer()
-                .AddApiAuthorization<ApplicationUser, ApplicationDbContext>();
+            //services.AddIdentityServer()
+            //    .AddApiAuthorization<ApplicationUser, ApplicationDbContext>();
 
-            services.AddAuthentication()
-                .AddIdentityServerJwt();
+            //services.AddAuthentication()
+            //    .AddIdentityServerJwt();
 
             return services;
         }

@@ -1,6 +1,7 @@
 C:\Asp.Net Core Projects\ReactInvoiceManagementProject\InvoiceManagementApp\InvoiceManagementApp.Domain\bin\Debug\netstandard2.1\InvoiceManagementApp.Domain.deps.json
 C:\Asp.Net Core Projects\ReactInvoiceManagementProject\InvoiceManagementApp\InvoiceManagementApp.Domain\bin\Debug\netstandard2.1\InvoiceManagementApp.Domain.dll
 C:\Asp.Net Core Projects\ReactInvoiceManagementProject\InvoiceManagementApp\InvoiceManagementApp.Domain\bin\Debug\netstandard2.1\InvoiceManagementApp.Domain.pdb
+C:\Asp.Net Core Projects\ReactInvoiceManagementProject\InvoiceManagementApp\InvoiceManagementApp.Domain\obj\Debug\netstandard2.1\InvoiceManagementApp.Domain.csprojAssemblyReference.cache
 C:\Asp.Net Core Projects\ReactInvoiceManagementProject\InvoiceManagementApp\InvoiceManagementApp.Domain\obj\Debug\netstandard2.1\InvoiceManagementApp.Domain.AssemblyInfoInputs.cache
 C:\Asp.Net Core Projects\ReactInvoiceManagementProject\InvoiceManagementApp\InvoiceManagementApp.Domain\obj\Debug\netstandard2.1\InvoiceManagementApp.Domain.AssemblyInfo.cs
 C:\Asp.Net Core Projects\ReactInvoiceManagementProject\InvoiceManagementApp\InvoiceManagementApp.Domain\obj\Debug\netstandard2.1\InvoiceManagementApp.Domain.dll
