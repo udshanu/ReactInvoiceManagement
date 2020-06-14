@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvoiceManagementApp.Api", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagementApp.Domain", "InvoiceManagementApp.Domain\InvoiceManagementApp.Domain.csproj", "{22DE2BB9-4E24-48D0-B8B0-C0D7B566BCBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagementApp.Application", "InvoiceManagementApp.Application\InvoiceManagementApp.Application.csproj", "{DDF6873E-AEF2-4431-A955-C1CAF06F9E1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{22DE2BB9-4E24-48D0-B8B0-C0D7B566BCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22DE2BB9-4E24-48D0-B8B0-C0D7B566BCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22DE2BB9-4E24-48D0-B8B0-C0D7B566BCBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF6873E-AEF2-4431-A955-C1CAF06F9E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF6873E-AEF2-4431-A955-C1CAF06F9E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF6873E-AEF2-4431-A955-C1CAF06F9E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF6873E-AEF2-4431-A955-C1CAF06F9E1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
